@@ -27,7 +27,7 @@ def readFile(filename,method):
 
 def readProxiesFile():
     restartTry = True
-    path = os.path.join("Data", "VayProxies.txt")
+    path = os.path.join("Data", "Proxies.txt")
     while restartTry:
         try:
             proxies = readFile(path, 'r')
