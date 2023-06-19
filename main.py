@@ -153,7 +153,7 @@ if (__name__ == "__main__"):
     clearConsole(); Banner()
 
     print(Colorate.Horizontal(Colors.yellow_to_red, f"Hits are not counted!"))
-    print(Colorate.Horizontal(Colors.yellow_to_red, f"Bot started, check your results after 5-10 minutes. (Updates on discord -> discord.gg/e7DpUWSU7q)")
+    print(Colorate.Horizontal(Colors.yellow_to_red, f"Bot started, check your results after 5-10 minutes. (Updates on discord -> discord.gg/e7DpUWSU7q)"))
 
     if sendType == 0:
         sendProcess = sendView
